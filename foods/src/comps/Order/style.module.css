@@ -1,0 +1,55 @@
+.order {
+    border: 2px solid black;
+    width: 40%;
+    height: 100vh;
+}
+.order h1 {
+    margin: 50px 0 0 30px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.top button {
+    height: 50px;
+    width: 100px;
+    color: red;
+    border-color: red;
+    background-color: white;
+    margin: 50px 20px 0 0;
+    font-weight: bold;
+}
+.foods {
+    margin-top: 40px;
+}
+.food {
+    border-bottom: 3px solid black;
+    display: flex;
+    gap: 30px;
+}
+.food img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: 40% 100%;
+    margin: 20px;
+}
+.food h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+    width: 80px;
+}
+.food button {
+    height: 40px;
+    width: 35px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: white;
+    margin-top: 30px;
+}
+.food p {
+    margin-top: 40px;
+    font-weight: bold;
+}
